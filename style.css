@@ -1,0 +1,145 @@
+html, body, .Encabezado, .letter, .Cuerpo, .img, .Pie{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.Encabezado {
+    font-family: 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    /* background-position: 140%; */
+}
+
+.letter, .letter-D{
+    color: rgb(249, 249, 249);
+    font-size: 1em;
+}
+.letter-D{
+    text-align: center;
+}
+
+.text{
+    font: 44px 'Arial';
+    font-weight: bold;
+    color: wheat;
+    margin: 0px ;
+    text-align: center;
+    text-decoration-line:underline;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+
+
+img.Perfil-1{
+    border-radius: 200px;
+    width: 200px;
+    margin: 10px;
+    margin-top: 25px;
+    align-self:center;
+    border: solid rgba(158, 60, 255, 0.3) 8px;
+}
+
+
+.Nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: black;
+    height: 18.31cm; /*ALTURA CORRECTA NO MOVER*/
+    width: 7.66cm;
+    padding: 30px;
+    border-right: 9px solid rgb(158, 60, 255);
+}
+
+div.Nav-img.Perfil-1,.text,.letter-ex{  
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+} 
+
+.letter2{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cuadro{
+    font-family: 'Arial';
+    font-size: 18px;
+    background-color: rgb(192, 116, 251);
+    border: solid 10px rgb(158, 60, 255);
+    margin-top: 1em;
+    text-align: left;
+    color: white;
+    border-radius: 5%;
+}
+
+.presentacion{
+    height: 19.9cm;
+    /* border: solid blue 3px; */
+    background-color: rgba(0, 0, 0);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.529)),url(./img/FiverrPack/sinior-4.png);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;    
+}
+
+.Bienvenido{
+    margin: 0px;
+    height: 5.90cm;
+    width: 16.93cm;
+    font-size:  60px;
+    font-family: 'Arial';
+    color: white;
+    text-align: left;
+}
+
+
+.Nombre{
+    /* margin-top: 400px; */
+    height: 3.29cm;
+    width: 11.58;
+    text-align: center;
+    font-size: 44px;
+}
+.letter.D{
+    margin: 2.13px;
+
+}
+.letter.B{
+    margin: 0.95px;
+    font-size: 18px;    
+
+}
+.espacio{
+    height:400px;
+    width: 400px;
+}
+
+.Mariano{
+    color: rgba(158, 60, 255);
+    text-shadow: 0px, 5px, 0px, black;
+    font-size:  60px;
+    margin: 0px;
+}   
+
+.Unico{
+    position: absolute;
+    height: 8cm;
+    width: 9cm;
+    top: 200px;
+    left: 270px;
+    z-index: 1;
+}
+.text{
+    color: rgb(158, 60, 255);
+}
